@@ -1,0 +1,75 @@
+header {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header #go-back {
+  border: none;
+  background: none;
+}
+header #go-back:hover {
+  cursor: pointer;
+}
+header #product-btn {
+  display: block;
+  width: 90px;
+  height: 32px;
+  border-radius: 32px;
+  border: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+header #product-btn:hover {
+  cursor: pointer;
+}
+#product-btn:disabled {
+  background-color: #ffc7a7;
+}
+
+.main {
+}
+.main .wrap {
+  width: 320px;
+  margin: 30px auto;
+}
+.product-registration {
+  margin-bottom: 30px;
+}
+.product-img {
+  position: relative;
+  width: 100%;
+  height: 204px;
+  background: #f2f2f2;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.product-img:hover,
+#search-img:hover {
+  cursor: pointer;
+}
+.product-img #search-img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+}
+.product-input .inputs {
+  margin: 16px 0;
+}
+.product-input .inputs input {
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 14px;
+  line-height: 14px;
+  color: #dbdbdb;
+  padding-bottom: 8px;
+}
+.product-input .inputs input::placeholder {
+  color: #dbdbdb;
+}

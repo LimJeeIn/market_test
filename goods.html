@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>감귤마켓</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/goods-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="a11y-hidden">header</h1>
+        <button id="go-back">
+          <img src="./assets/icon-arrow-left.png" alt="" />
+        </button>
+        <button id="product-btn" disabled="disabled">저장</button>
+      </header>
+      <section class="main">
+        <div class="wrap">
+          <div class="product-registration">
+            <p class="font-style">이미지 등록</p>
+            <div class="product-img">
+              <button id="search-img">
+                <img src="./assets/img-button.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <form class="product-input">
+            <div class="inputs">
+              <label for="product-name" class="font-style">상품명</label>
+              <input
+                type="text"
+                id="product-name"
+                placeholder="2~10자 이내여야 합니다."
+              />
+            </div>
+            <div class="inputs">
+              <label for="product-price" class="font-style">가격</label>
+              <input
+                type="text"
+                id="product-price"
+                placeholder="숫자만 입력 가능합니다."
+              />
+            </div>
+            <div class="inputs">
+              <label for="sales-link" class="font-style">판매링크</label>
+              <input
+                type="text"
+                id="sales-link"
+                placeholder="URL을 입력해 주세요."
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="goods.js"></script>
+  </body>
+</html>

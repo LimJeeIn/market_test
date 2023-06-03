@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+.font-style {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #767676;
+}
+input:focus {
+  outline: none;
+}
